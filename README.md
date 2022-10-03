@@ -10,11 +10,9 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 ## Usage
 
-[Example](https://github.com/iampawan/Flutter-Walkthrough/blob/master/example/example_app.dart)
+[Example](https://github.com/inamhusain/flutter_intro_screen_plus.git)
 
 To use this package :
-
-* add the dependency to your [pubspec.yaml](https://github.com/iampawan/Flutter-Walkthrough/blob/master/pubspec.yaml) file.
 
 ```yaml
   dependencies:
