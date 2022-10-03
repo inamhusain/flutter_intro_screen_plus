@@ -18,34 +18,33 @@ To use this package :
   dependencies:
     flutter:
       sdk: flutter
-    flutter_walkthrough:
+    flutter_intro_screen_plus:
 ```
 
 ### How to use
 
 ```dart
 class TestScreen extends StatelessWidget {
-  
-  /*here we have a list of walkthroughs which we want to have, 
+ /*here we have a list of walkthroughs which we want to have, 
   each walkthrough have a title,content and an icon.
   */
-  final List<Walkthrough> list = [
-    Walkthrough(
+  final List<IntroCardWidget> list = [
+    const IntroCardWidget(
       title: "Title 1",
       content: "Content 1",
       imageIcon: Icons.restaurant_menu,
     ),
-    Walkthrough(
+    const IntroCardWidget(
       title: "Title 2",
       content: "Content 2",
       imageIcon: Icons.search,
     ),
-    Walkthrough(
+    const IntroCardWidget(
       title: "Title 3",
       content: "Content 3",
       imageIcon: Icons.shopping_cart,
     ),
-    Walkthrough(
+    const IntroCardWidget(
       title: "Title 4",
       content: "Content 4",
       imageIcon: Icons.verified_user,
@@ -54,11 +53,11 @@ class TestScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //here we need to pass the list and the route for the next page to be opened after this.
-    return new IntroScreen(
-      list,
-      new MaterialPageRoute(builder: (context) => new TestScreen()),
+    return IntroScreen(
+      walkthroughList: list,
+      pageRoute: MaterialPageRoute(builder: (context) => TestScreen()),
     );
   }
 }
+
 ```
