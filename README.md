@@ -4,9 +4,8 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 ## Screenshots
 
-<img src="ss1.png" height="300em" /> 
-
-<img src="ss2.png" height="300em" />
+[<img src="https://github.com/inamhusain/flutter_intro_screen_plus/blob/master/ss1.png" width="300" />]
+[<img src="https://github.com/inamhusain/flutter_intro_screen_plus/blob/master/ss2.png" width="300" />]
 
 ## Usage
 
