@@ -8,6 +8,8 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 <img src="ss2.png" height="300em" />
 
+![download](https://user-images.githubusercontent.com/70013058/193738451-f02e001b-b7fc-423a-ac3e-fd256e0f53d0.jpg)
+
 ## Usage
 
 [Example](https://github.com/inamhusain/flutter_intro_screen_plus.git)
