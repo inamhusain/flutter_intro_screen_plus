@@ -4,8 +4,8 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 ## Screenshots
 
-|page1|page2|
-| ------------------------------- |------------------------------ |  
+| page1                          | page2                          |
+| ------------------------------- | ------------------------------- |
 | ![page1](ss1.png) | ![page2](ss2.png) |
 
 ## Usage

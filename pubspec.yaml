@@ -1,6 +1,6 @@
 name: flutter_intro_screen_plus
 description: A new Flutter package which helps developers in creating animated walkthrough of their app.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/inamhusain/flutter_intro_screen_plus.git
 
 environment:
