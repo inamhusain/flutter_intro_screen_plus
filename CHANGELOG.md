@@ -16,6 +16,6 @@
 
 * Documents Improve.
 
-* ## [0.0.5] - Release
+## [0.0.5] - Release
 
 * Documents Improve.
